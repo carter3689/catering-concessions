@@ -1,1 +1,1 @@
-web: gunicorn greaterdemand.wsgi --log-file -
+web: gunicorn catering_concessions.wsgi --log-file -
