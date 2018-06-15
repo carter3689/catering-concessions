@@ -62,7 +62,7 @@
 }
 .about-content{margin-left: 40px}
 .about-image {
-    background-image: url("img/al-headshot.png");
+    background-image: url("img/al-headshot.6baa2c4594ca.png");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -73,7 +73,7 @@
     width: 40%;
 }
 .about-image.three{
-    background-image: url("img/about/about2.jpg");}
+    background-image: url("img/about/about2.c115f9d5c159.jpg");}
 .mc-form {
   position: relative;
 }
@@ -385,7 +385,7 @@
     right: 0;
     bottom: 0;
     content: "";
-    background: url(img/testimonia/quote.png);
+    background: url("img/testimonia/quote.7e6432e523c0.png");
     width: 34px;
     height: 30px;
 }

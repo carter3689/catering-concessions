@@ -8,10 +8,10 @@
     Version: 1.0
 
 -----------------------------------------------------------------------------------
-    
+
     CSS INDEX
     ===================
-	
+
     1. Event Area
     2. About Area
     3. Menu Area
@@ -62,7 +62,7 @@
 }
 .about-content{margin-left: 40px}
 .about-image {
-    background-image: url("img/about/bg.jpg");
+    background-image: url("img/al-headshot.png");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -430,7 +430,7 @@
 }
 .food-img img{
     position: relative;
-    z-index: 2;  
+    z-index: 2;
     border-radius: 50%;
     margin: 7px;
 }
@@ -592,9 +592,9 @@
 .admin-info > h5{
     font-family: 'Open Sans', sans-serif;
     text-transform: uppercase;
-    font-weight: 700; 
+    font-weight: 700;
     color: #353535;
-    font-size: 12px; 
+    font-size: 12px;
 }
 .admin-info > h5 > span{
     display: block;
@@ -639,7 +639,7 @@
     font-weight: 700;
     text-transform: uppercase;
     font-family: 'Open Sans', sans-serif;
-    position:relative;     
+    position:relative;
 }
 .single-post-wrapper .single-blog-post .our-blog-info h5:after {
     background: #D4A762 none repeat scroll 0 0;
@@ -648,7 +648,7 @@
     left:0;
     width: 45px;
     height: 2px;
-    content:"";    
+    content:"";
 }
 .single-post-wrapper .single-blog-post .our-blog-info p {
     margin-bottom: 0px;
@@ -725,7 +725,7 @@
     padding: 0 20px 25px 0;
 }
 .comment.odd.depth-2 .the_comment .author{
-    margin-right: 15px;  
+    margin-right: 15px;
 }
 p.name strong {
   color: #505050;
@@ -990,11 +990,11 @@ ol, ul {
     color: #D4A762;
     border-bottom: 1px solid #D4A762;
 }
-.contact-area input::-moz-placeholder, .contact-area textarea::-moz-placeholder {color: #555555;} 
+.contact-area input::-moz-placeholder, .contact-area textarea::-moz-placeholder {color: #555555;}
 .contact-area input::-webkit-input-placeholder, .contact-area textarea::-webkit-input-placeholder {
     color: #555555;
 }
-.contact-area input::-moz-placeholder:focus, .contact-area textarea::-moz-placeholder:focus {color: #D4A762;} 
+.contact-area input::-moz-placeholder:focus, .contact-area textarea::-moz-placeholder:focus {color: #D4A762;}
 .contact-area input::-webkit-input-placeholder:focus, .contact-area textarea::-webkit-input-placeholder:focus {
     color: #D4A762;
 }
@@ -1105,16 +1105,3 @@ ol, ul {
     font-size: 16px;
     color: #D4A762;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
