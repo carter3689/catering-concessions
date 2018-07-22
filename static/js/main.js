@@ -213,13 +213,28 @@
       };
       firebase.initializeApp(config);
 
+      var firestore = firebase.firestore()
+
       $("#submit-button").click(function(event){
 
         event.preventDefault();
 
-        var name = $("#name-field").value()
-        var email = $("#email-field").value()
-        var message = $("#message-field").value()
+        var name = $("#name-field").val()
+        var email = $("#email-field").val()
+        var message = $("#message-field").val()
+        $("#contact-form")[0].reset()
+
+        firestore.collection("customers").doc(name).set({
+            name:name,
+            email:email,
+            message:message
+        })
+        .then(function*(){
+            console.log("Document Created")
+        })
+        .catch(function(error){
+            console.error("Error with document")
+        });
   
         console.log(name + email + message);
       })
