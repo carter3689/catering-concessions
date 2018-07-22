@@ -198,5 +198,32 @@
         currentClass: 'active',
         scrollOffset: top_offset
     });
+
+    /*---------------------------
+    Form Data for firestore
+    -----------------------------*/
+
+    var config = {
+        apiKey: "AIzaSyCaIPsIWHsjj7tx7D0U99dMzT17xveVcuk",
+        authDomain: "catering-concessions.firebaseapp.com",
+        databaseURL: "https://catering-concessions.firebaseio.com",
+        projectId: "catering-concessions",
+        storageBucket: "catering-concessions.appspot.com",
+        messagingSenderId: "694458414393"
+      };
+      firebase.initializeApp(config);
+
+      $("#submit-button").click(function(event){
+
+        event.preventDefault();
+
+        var name = $("#name-field").value()
+        var email = $("#email-field").value()
+        var message = $("#message-field").value()
+  
+        console.log(name + email + message);
+      })
+
+
 	
 })(jQuery);  
